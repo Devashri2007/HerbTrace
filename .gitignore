@@ -1,0 +1,39 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Large archive
+blockchain-zip.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Private keys
+*.pem
+*.key
+
+# Generated blockchain files
+blockchain/artifacts/
+blockchain/cache/
+
+# Editor and OS files
+.idea/
+.DS_Store

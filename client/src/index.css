@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #f7f9f6;
+    color: #143224;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #eef2ed;
+}
+::-webkit-scrollbar-thumb {
+  background: #9bceb0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #69b189;
+}
+
+/* Custom Botanical Palette Fallbacks */
+.bg-botanical-50 { background-color: #f2f8f4; }
+.bg-botanical-100 { background-color: #e1f0e6; }
+.bg-botanical-200 { background-color: #c5e2d0; }
+.bg-botanical-700 { background-color: #166534; }
+.bg-botanical-800 { background-color: #14532d; }
+.bg-botanical-900 { background-color: #0f3d26; }
+.bg-botanical-950 { background-color: #082115; }
+
+.text-botanical-400 { color: #69b189; }
+.text-botanical-500 { color: #439567; }
+.text-botanical-600 { color: #2f7850; }
+.text-botanical-700 { color: #166534; }
+.text-botanical-800 { color: #14532d; }
+.text-botanical-900 { color: #0f3d26; }
+.text-botanical-950 { color: #082115; }
+
+.border-botanical-100 { border-color: #e1f0e6; }
+.border-botanical-200 { border-color: #c5e2d0; }
+.border-botanical-300 { border-color: #9bceb0; }
+.border-botanical-700 { border-color: #166534; }
+.border-botanical-800 { border-color: #14532d; }
+.border-botanical-900 { border-color: #0f3d26; }
+
+.hover\:bg-botanical-50:hover { background-color: #f2f8f4; }
+.hover\:bg-botanical-100:hover { background-color: #e1f0e6; }
+.hover\:bg-botanical-800:hover { background-color: #14532d; }
+.hover\:bg-botanical-900:hover { background-color: #0f3d26; }
+
+.hover\:text-botanical-600:hover { color: #2f7850; }
+.hover\:text-botanical-950:hover { color: #082115; }

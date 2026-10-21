@@ -1,0 +1,17 @@
+{
+  "name": "herbtrace-blockchain",
+  "version": "1.0.0",
+  "description": "Smart contracts and Hardhat environment for HerbTrace",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "server": "npm --prefix ../server start",
+    "client": "npm --prefix ../client run dev"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.18"
+  }
+}

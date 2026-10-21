@@ -1,0 +1,16 @@
+{
+  "name": "herbtrace-workspace",
+  "version": "1.0.0",
+  "description": "HerbTrace: Blockchain-Based Botanical Traceability System for Ayurvedic Herbs",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "blockchain": "npm --prefix blockchain run node",
+    "deploy:contract": "npm --prefix blockchain run deploy",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install && npm --prefix blockchain install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
